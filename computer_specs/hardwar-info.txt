@@ -1,0 +1,1433 @@
+otter77-virtualbox
+    description: Desktop Computer
+    product: System Product Name (SKU)
+    vendor: System manufacturer
+    version: System Version
+    serial: System Serial Number
+    width: 64 bits
+    capabilities: smbios-3.0.0 dmi-3.0.0 smp vsyscall32
+    configuration: boot=normal chassis=desktop family=To be filled by O.E.M. sku=SKU uuid=c3b5cf60-157d-11e0-b05a-0c9d92850de8
+  *-core
+       description: Motherboard
+       product: ROG ZENITH EXTREME
+       vendor: ASUSTeK COMPUTER INC.
+       physical id: 0
+       version: Rev 1.xx
+       serial: 180937143100164
+       slot: Default string
+     *-firmware
+          description: BIOS
+          vendor: American Megatrends Inc.
+          physical id: 0
+          version: 2001
+          date: 07/31/2019
+          size: 64KiB
+          capacity: 16MiB
+          capabilities: pci apm upgrade shadowing cdboot bootselect socketedrom edd int13floppy1200 int13floppy720 int13floppy2880 int5printscreen int9keyboard int14serial int17printer acpi usb biosbootspecification uefi
+     *-memory
+          description: System Memory
+          physical id: 3c
+          slot: System board or motherboard
+          size: 40GiB
+        *-bank:0
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 0
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:1
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2400 MHz (0.4 ns)
+             product: KHX3000C15D4/8GX
+             vendor: Kingston
+             physical id: 1
+             serial: 4F18F7DE
+             slot: DIMM 1
+             size: 8GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:2
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2400 MHz (0.4 ns)
+             product: KD48GU880-32A160U
+             vendor: Unknown
+             physical id: 2
+             serial: 36072E22
+             slot: DIMM 0
+             size: 8GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:3
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2400 MHz (0.4 ns)
+             product: KD48GU880-32A160U
+             vendor: Unknown
+             physical id: 3
+             serial: 93072E21
+             slot: DIMM 1
+             size: 8GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:4
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 4
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:5
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2400 MHz (0.4 ns)
+             product: KHX3000C15D4/8GX
+             vendor: Kingston
+             physical id: 5
+             serial: 0B18C5E5
+             slot: DIMM 1
+             size: 8GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+        *-bank:6
+             description: [empty]
+             product: Unknown
+             vendor: Unknown
+             physical id: 6
+             serial: Unknown
+             slot: DIMM 0
+        *-bank:7
+             description: DIMM DDR4 Synchronous Unbuffered (Unregistered) 2400 MHz (0.4 ns)
+             product: CMK16GX4M2A2400C16
+             vendor: Unknown
+             physical id: 7
+             serial: 00000000
+             slot: DIMM 1
+             size: 8GiB
+             width: 64 bits
+             clock: 2400MHz (0.4ns)
+     *-cache:0
+          description: L1 cache
+          physical id: 3f
+          slot: L1 - Cache
+          size: 1536KiB
+          capacity: 1536KiB
+          clock: 1GHz (1.0ns)
+          capabilities: pipeline-burst internal write-back unified
+          configuration: level=1
+     *-cache:1
+          description: L2 cache
+          physical id: 40
+          slot: L2 - Cache
+          size: 8MiB
+          capacity: 8MiB
+          clock: 1GHz (1.0ns)
+          capabilities: pipeline-burst internal write-back unified
+          configuration: level=2
+     *-cache:2
+          description: L3 cache
+          physical id: 41
+          slot: L3 - Cache
+          size: 32MiB
+          capacity: 32MiB
+          clock: 1GHz (1.0ns)
+          capabilities: pipeline-burst internal write-back unified
+          configuration: level=3
+     *-cpu
+          description: CPU
+          product: AMD Ryzen Threadripper 2950X 16-Core Processor
+          vendor: Advanced Micro Devices [AMD]
+          physical id: 42
+          bus info: cpu@0
+          version: 23.8.2
+          serial: Unknown
+          slot: SP3r2
+          size: 4041MHz
+          width: 64 bits
+          clock: 100MHz
+          capabilities: lm fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp x86-64 constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid amd_dcm aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb hw_pstate ssbd ibpb vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap clflushopt sha_ni xsaveopt xsavec xgetbv1 clzero irperf xsaveerptr arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif overflow_recov succor smca sev sev_es cpufreq
+          configuration: cores=16 enabledcores=16 microcode=134251021 threads=32
+     *-pci:0
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Family 17h (Models 00h-0fh) I/O Memory Management Unit
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:00:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msi ht cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.1
+             bus info: pci@0000:00:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:29 ioport:1000(size=4096) memory:a2200000-a28fffff
+           *-usb
+                description: USB controller
+                product: X399 Series Chipset USB 3.1 xHCI Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:01:00.0
+                version: 02
+                width: 64 bits
+                clock: 33MHz
+                capabilities: msi msix pm pciexpress xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:34 memory:a28a0000-a28a7fff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 6.8.0-58-generic xhci-hcd
+                   physical id: 0
+                   bus info: usb@1
+                   logical name: usb1
+                   version: 6.08
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=14 speed=480Mbit/s
+                 *-usb:0
+                      description: Bluetooth wireless interface
+                      vendor: ASUSTek Computer, Inc.
+                      physical id: 2
+                      bus info: usb@1:2
+                      version: 0.01
+                      capabilities: bluetooth usb-1.10
+                      configuration: driver=btusb maxpower=100mA speed=12Mbit/s
+                 *-usb:1
+                      description: Mass storage device
+                      product: VLI Product String
+                      vendor: VLI Manufacture String
+                      physical id: 3
+                      bus info: usb@1:3
+                      logical name: scsi12
+                      version: 0.00
+                      serial: 000000123AD1
+                      capabilities: usb-2.10 scsi
+                      configuration: driver=uas maxpower=500mA speed=480Mbit/s
+                    *-disk
+                         description: SCSI Disk
+                         vendor: ZX1 1TB
+                         physical id: 0.0.0
+                         bus info: scsi@12:0.0.0
+                         logical name: /dev/sda
+                         version: U050
+                         serial: 000000123AD1
+                         size: 953GiB (1024GB)
+                         capabilities: partitioned partitioned:dos
+                         configuration: ansiversion=6 logicalsectorsize=512 sectorsize=512 signature=af38bfb3
+                       *-volume:0
+                            description: EXT4 volume
+                            vendor: Linux
+                            physical id: 1
+                            bus info: scsi@12:0.0.0,1
+                            logical name: /dev/sda1
+                            logical name: /
+                            version: 1.0
+                            serial: 3390e30c-0a30-48cd-a34c-8644bd5333a0
+                            size: 917GiB
+                            capacity: 917GiB
+                            capabilities: primary journaled extended_attributes large_files huge_files dir_nlink recover 64bit extents ext4 ext2 initialized
+                            configuration: created=2025-04-21 12:58:40 filesystem=ext4 lastmountpoint=/mnt/ssd modified=2025-05-09 21:17:09 mount.fstype=ext4 mount.options=rw,relatime,errors=remount-ro mounted=2025-05-09 21:17:12 state=mounted
+                       *-volume:1
+                            description: Windows FAT volume
+                            vendor: mkfs.fat
+                            physical id: 2
+                            bus info: scsi@12:0.0.0,2
+                            logical name: /dev/sda2
+                            logical name: /boot/efi
+                            version: FAT32
+                            serial: 2ecd-c94c
+                            size: 36GiB
+                            capacity: 36GiB
+                            capabilities: primary bootable boot fat initialized
+                            configuration: FATs=2 filesystem=fat mount.fstype=vfat mount.options=rw,relatime,fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro state=mounted
+                 *-usb:2
+                      description: Human interface device
+                      product: ROG_RYUO
+                      vendor: AsusTek Computer Inc.
+                      physical id: a
+                      bus info: usb@1:a
+                      version: 2.00
+                      serial: 00000000001A
+                      capabilities: usb-2.00
+                      configuration: driver=usb-storage maxpower=500mA speed=12Mbit/s
+                 *-usb:3
+                      description: Human interface device
+                      product: AURA Custom Human interface
+                      vendor: AsusTek Computer Inc.
+                      physical id: b
+                      bus info: usb@1:b
+                      version: 2.00
+                      serial: 00000000001A
+                      capabilities: usb-2.00
+                      configuration: driver=usbhid maxpower=100mA speed=12Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 6.8.0-58-generic xhci-hcd
+                   physical id: 1
+                   bus info: usb@2
+                   logical name: usb2
+                   version: 6.08
+                   capabilities: usb-3.10
+                   configuration: driver=hub slots=8 speed=10000Mbit/s
+           *-sata
+                description: SATA controller
+                product: X399 Series Chipset SATA Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.1
+                bus info: pci@0000:01:00.1
+                version: 02
+                width: 32 bits
+                clock: 33MHz
+                capabilities: sata msi pm pciexpress ahci_1.0 bus_master cap_list rom
+                configuration: driver=ahci latency=0
+                resources: irq:82 memory:a2880000-a289ffff memory:a2800000-a287ffff
+           *-pci
+                description: PCI bridge
+                product: X399 Series Chipset PCIe Bridge
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.2
+                bus info: pci@0000:01:00.2
+                version: 02
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                configuration: driver=pcieport
+                resources: irq:24 ioport:1000(size=4096) memory:a2200000-a27fffff
+              *-pci:0
+                   description: PCI bridge
+                   product: 300 Series Chipset PCIe Port
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 0
+                   bus info: pci@0000:02:00.0
+                   version: 02
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:35 memory:a2400000-a25fffff
+                 *-network
+                      description: Wireless interface
+                      product: QCA6174 802.11ac Wireless Network Adapter
+                      vendor: Qualcomm Atheros
+                      physical id: 0
+                      bus info: pci@0000:03:00.0
+                      logical name: wlp3s0
+                      version: 32
+                      serial: e0:4f:43:70:db:a6
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
+                      configuration: broadcast=yes driver=ath10k_pci driverversion=6.8.0-58-generic firmware=WLAN.RM.4.4.1-00309- ip=172.18.77.229 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+                      resources: irq:151 memory:a2400000-a25fffff
+              *-pci:1
+                   description: PCI bridge
+                   product: 300 Series Chipset PCIe Port
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 1
+                   bus info: pci@0000:02:01.0
+                   version: 02
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:36 memory:a2200000-a23fffff
+                 *-network
+                      description: Wireless interface
+                      product: Wil6200 802.11ad Wireless Network Adapter
+                      vendor: Wilocity Ltd.
+                      physical id: 0
+                      bus info: pci@0000:04:00.0
+                      logical name: wlp4s0
+                      version: 02
+                      serial: b8:d7:af:08:30:ac
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: pm msi pciexpress bus_master cap_list ethernet physical wireless
+                      configuration: broadcast=yes driver=wil6210 driverversion=6.8.0-58-generic firmware=5.2.0.18 latency=0 multicast=yes wireless=IEEE 802.11
+                      resources: irq:149 memory:a2200000-a23fffff
+              *-pci:2
+                   description: PCI bridge
+                   product: 300 Series Chipset PCIe Port
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 2
+                   bus info: pci@0000:02:02.0
+                   version: 02
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:37 ioport:1000(size=4096) memory:a2700000-a27fffff
+                 *-network
+                      description: Ethernet interface
+                      product: I211 Gigabit Network Connection
+                      vendor: Intel Corporation
+                      physical id: 0
+                      bus info: pci@0000:05:00.0
+                      logical name: enp5s0
+                      version: 03
+                      serial: 0c:9d:92:85:0d:e8
+                      size: 1Gbit/s
+                      capacity: 1Gbit/s
+                      width: 32 bits
+                      clock: 33MHz
+                      capabilities: pm msi msix pciexpress bus_master cap_list ethernet physical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+                      configuration: autonegotiation=on broadcast=yes driver=igb driverversion=6.8.0-58-generic duplex=full firmware=0. 6-1 ip=137.43.129.189 latency=0 link=yes multicast=yes port=twisted pair speed=1Gbit/s
+                      resources: irq:24 memory:a2700000-a271ffff ioport:1000(size=32) memory:a2720000-a2723fff
+              *-pci:3
+                   description: PCI bridge
+                   product: 300 Series Chipset PCIe Port
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 3
+                   bus info: pci@0000:02:03.0
+                   version: 02
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:39
+              *-pci:4
+                   description: PCI bridge
+                   product: 300 Series Chipset PCIe Port
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 4
+                   bus info: pci@0000:02:04.0
+                   version: 02
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:40
+              *-pci:5
+                   description: PCI bridge
+                   product: 300 Series Chipset PCIe Port
+                   vendor: Advanced Micro Devices, Inc. [AMD]
+                   physical id: 9
+                   bus info: pci@0000:02:09.0
+                   version: 02
+                   width: 32 bits
+                   clock: 33MHz
+                   capabilities: pci msi pm pciexpress normal_decode bus_master cap_list
+                   configuration: driver=pcieport
+                   resources: irq:41 memory:a2600000-a26fffff
+                 *-usb
+                      description: USB controller
+                      product: ASM2142/ASM3142 USB 3.1 Host Controller
+                      vendor: ASMedia Technology Inc.
+                      physical id: 0
+                      bus info: pci@0000:08:00.0
+                      version: 00
+                      width: 64 bits
+                      clock: 33MHz
+                      capabilities: msi msix pm pciexpress xhci bus_master cap_list
+                      configuration: driver=xhci_hcd latency=0
+                      resources: irq:25 memory:a2600000-a2607fff
+                    *-usbhost:0
+                         product: xHCI Host Controller
+                         vendor: Linux 6.8.0-58-generic xhci-hcd
+                         physical id: 0
+                         bus info: usb@3
+                         logical name: usb3
+                         version: 6.08
+                         capabilities: usb-2.00
+                         configuration: driver=hub slots=2 speed=480Mbit/s
+                    *-usbhost:1
+                         product: xHCI Host Controller
+                         vendor: Linux 6.8.0-58-generic xhci-hcd
+                         physical id: 1
+                         bus info: usb@4
+                         logical name: usb4
+                         version: 6.08
+                         capabilities: usb-3.10
+                         configuration: driver=hub slots=2 speed=10000Mbit/s
+        *-pci:1
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.2
+             bus info: pci@0000:00:01.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:30 memory:a2e00000-a2efffff
+           *-nvme
+                description: NVMe device
+                product: INTEL SSDPEKKW256G8
+                vendor: Intel Corporation
+                physical id: 0
+                bus info: pci@0000:09:00.0
+                logical name: /dev/nvme2
+                version: 004C
+                serial: BTHH83100SKM256B
+                width: 64 bits
+                clock: 33MHz
+                capabilities: nvme pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0 nqn=nqn.2014.08.org.nvmexpress:80868086BTHH83100SKM256B    INTEL SSDPEKKW256G8 state=live
+                resources: irq:83 memory:a2e00000-a2e03fff
+              *-namespace:0
+                   description: NVMe disk
+                   physical id: 0
+                   logical name: hwmon2
+              *-namespace:1
+                   description: NVMe disk
+                   physical id: 2
+                   logical name: /dev/ng2n1
+              *-namespace:2
+                   description: NVMe disk
+                   physical id: 1
+                   bus info: nvme@2:1
+                   logical name: /dev/nvme2n1
+                   size: 238GiB (256GB)
+                   capabilities: gpt-1.00 partitioned partitioned:gpt
+                   configuration: guid=0beceeb4-b2a7-40f1-a69d-aa54795c6bef logicalsectorsize=512 sectorsize=512 wwid=eui.0000000001000000e4d25c6ea6d54f01
+                 *-volume:0
+                      description: Windows NTFS volume
+                      vendor: Windows
+                      physical id: 1
+                      bus info: nvme@2:1,1
+                      logical name: /dev/nvme2n1p1
+                      version: 3.1
+                      serial: 72a6-a2fa
+                      size: 497MiB
+                      capacity: 498MiB
+                      capabilities: boot precious nomount ntfs initialized
+                      configuration: clustersize=4096 created=2018-11-27 18:04:33 filesystem=ntfs label=Recovery name=Basic data partition state=clean
+                 *-volume:1
+                      description: Windows FAT volume
+                      vendor: MSDOS5.0
+                      physical id: 2
+                      bus info: nvme@2:1,2
+                      logical name: /dev/nvme2n1p2
+                      version: FAT32
+                      serial: bea8-7f68
+                      size: 76MiB
+                      capacity: 99MiB
+                      capabilities: boot nomount fat initialized
+                      configuration: FATs=2 filesystem=fat name=EFI system partition
+                 *-volume:2
+                      description: reserved partition
+                      vendor: Windows
+                      physical id: 3
+                      bus info: nvme@2:1,3
+                      logical name: /dev/nvme2n1p3
+                      serial: 8ad42115-ff8b-4b23-b51c-a9bd760bbbc8
+                      capacity: 15MiB
+                      capabilities: nofs nomount
+                      configuration: name=Microsoft reserved partition
+                 *-volume:3
+                      description: Windows NTFS volume
+                      vendor: Windows
+                      physical id: 4
+                      bus info: nvme@2:1,4
+                      logical name: /dev/nvme2n1p4
+                      version: 3.1
+                      serial: 3e6a3757-e1aa-2f45-befb-fdb01c57ba58
+                      size: 237GiB
+                      capacity: 237GiB
+                      capabilities: ntfs initialized
+                      configuration: clustersize=4096 created=2018-11-27 18:04:46 filesystem=ntfs name=Basic data partition state=clean
+        *-pci:2
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 7.1
+             bus info: pci@0000:00:07.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:31 memory:a2a00000-a2cfffff
+           *-generic:0 UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Zeppelin/Raven/Raven2 PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:0a:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+           *-generic:1
+                description: Encryption controller
+                product: Family 17h (Models 00h-0fh) Platform Security Processor (PSP) 3.0 Device
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.2
+                bus info: pci@0000:0a:00.2
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix bus_master cap_list
+                configuration: driver=ccp latency=0
+                resources: irq:143 memory:a2b00000-a2bfffff memory:a2c00000-a2c01fff
+           *-usb
+                description: USB controller
+                product: Zeppelin USB 3.0 xHCI Compliant Host Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.3
+                bus info: pci@0000:0a:00.3
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:125 memory:a2a00000-a2afffff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 6.8.0-58-generic xhci-hcd
+                   physical id: 0
+                   bus info: usb@5
+                   logical name: usb5
+                   version: 6.08
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=4 speed=480Mbit/s
+                 *-usb:0
+                      description: USB hub
+                      product: HighSpeed Hub
+                      vendor: NEC Corp.
+                      physical id: 1
+                      bus info: usb@5:1
+                      version: 1.00
+                      capabilities: usb-2.00
+                      configuration: driver=hub maxpower=100mA slots=4 speed=480Mbit/s
+                 *-usb:1
+                      description: USB hub
+                      product: USB2.1 Hub
+                      vendor: GenesysLogic
+                      physical id: 2
+                      bus info: usb@5:2
+                      version: 93.91
+                      capabilities: usb-2.10
+                      configuration: driver=hub slots=3 speed=480Mbit/s
+                    *-usb
+                         description: Human interface device
+                         product: ROG Gaming Display Aura Device
+                         vendor: ASUSTek Computer, Inc.
+                         physical id: 1
+                         bus info: usb@5:2.1
+                         version: 1.10
+                         capabilities: usb-1.10
+                         configuration: driver=usbhid maxpower=32mA speed=12Mbit/s
+                 *-usb:2
+                      description: Keyboard
+                      product: Logitech USB Keyboard System Control
+                      vendor: Logitech
+                      physical id: 3
+                      bus info: usb@5:3
+                      logical name: input3
+                      logical name: /dev/input/event3
+                      logical name: input3::capslock
+                      logical name: input3::compose
+                      logical name: input3::kana
+                      logical name: input3::numlock
+                      logical name: input3::scrolllock
+                      logical name: input4
+                      logical name: /dev/input/event4
+                      logical name: input5
+                      logical name: /dev/input/event5
+                      version: 64.00
+                      capabilities: usb-1.10 usb
+                      configuration: driver=usbhid maxpower=90mA speed=2Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 6.8.0-58-generic xhci-hcd
+                   physical id: 1
+                   bus info: usb@6
+                   logical name: usb6
+                   version: 6.08
+                   capabilities: usb-3.00
+                   configuration: driver=hub slots=4 speed=5000Mbit/s
+                 *-usb
+                      description: USB hub
+                      product: USB3.2 Hub
+                      vendor: GenesysLogic
+                      physical id: 2
+                      bus info: usb@6:2
+                      version: 93.91
+                      capabilities: usb-3.20
+                      configuration: driver=hub slots=3 speed=5000Mbit/s
+        *-pci:3
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:00:08.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:33 memory:a2d00000-a2dfffff
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Zeppelin/Renoir PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:0b:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+           *-sata
+                description: SATA controller
+                product: FCH SATA Controller [AHCI mode]
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.2
+                bus info: pci@0000:0b:00.2
+                version: 51
+                width: 32 bits
+                clock: 33MHz
+                capabilities: sata pm pciexpress msi ahci_1.0 bus_master cap_list
+                configuration: driver=ahci latency=0
+                resources: irq:99 memory:a2d08000-a2d08fff
+           *-multimedia
+                description: Audio device
+                product: Family 17h (Models 00h-0fh) HD Audio Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.3
+                bus info: pci@0000:0b:00.3
+                logical name: card0
+                logical name: /dev/snd/controlC0
+                logical name: /dev/snd/hwC0D0
+                logical name: /dev/snd/pcmC0D0c
+                logical name: /dev/snd/pcmC0D0p
+                logical name: /dev/snd/pcmC0D1p
+                logical name: /dev/snd/pcmC0D2c
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:154 memory:a2d00000-a2d07fff
+              *-input:0
+                   product: HD-Audio Generic Front Mic
+                   physical id: 0
+                   logical name: input11
+                   logical name: /dev/input/event11
+              *-input:1
+                   product: HD-Audio Generic Rear Mic
+                   physical id: 1
+                   logical name: input12
+                   logical name: /dev/input/event12
+              *-input:2
+                   product: HD-Audio Generic Line
+                   physical id: 2
+                   logical name: input13
+                   logical name: /dev/input/event13
+              *-input:3
+                   product: HD-Audio Generic Line Out Front
+                   physical id: 3
+                   logical name: input14
+                   logical name: /dev/input/event14
+              *-input:4
+                   product: HD-Audio Generic Line Out Surround
+                   physical id: 4
+                   logical name: input15
+                   logical name: /dev/input/event15
+              *-input:5
+                   product: HD-Audio Generic Line Out CLFE
+                   physical id: 5
+                   logical name: input16
+                   logical name: /dev/input/event16
+              *-input:6
+                   product: HD-Audio Generic Front Headphone
+                   physical id: 6
+                   logical name: input17
+                   logical name: /dev/input/event17
+        *-serial
+             description: SMBus
+             product: FCH SMBus Controller
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 14
+             bus info: pci@0000:00:14.0
+             version: 59
+             width: 32 bits
+             clock: 66MHz
+             configuration: driver=piix4_smbus latency=0
+             resources: irq:0
+        *-isa
+             description: ISA bridge
+             product: FCH LPC Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 14.3
+             bus info: pci@0000:00:14.3
+             version: 51
+             width: 32 bits
+             clock: 66MHz
+             capabilities: isa bus_master
+             configuration: latency=0
+           *-pnp00:00
+                product: PnP device PNP0c01
+                physical id: 0
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:01
+                product: PnP device PNP0c02
+                physical id: 1
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:02
+                product: PnP device PNP0b00
+                physical id: 2
+                capabilities: pnp
+                configuration: driver=rtc_cmos
+           *-pnp00:03
+                product: PnP device PNP0c02
+                physical id: 3
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:04
+                product: PnP device PNP0c02
+                physical id: 4
+                capabilities: pnp
+                configuration: driver=system
+           *-pnp00:05
+                product: PnP device PNP0c02
+                physical id: 5
+                capabilities: pnp
+                configuration: driver=system
+     *-pci:1
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 101
+          bus info: pci@0000:00:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:2
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 102
+          bus info: pci@0000:00:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:3
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 103
+          bus info: pci@0000:00:03.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:4
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 104
+          bus info: pci@0000:00:04.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:5
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 105
+          bus info: pci@0000:00:07.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:6
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 106
+          bus info: pci@0000:00:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:7
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 107
+          bus info: pci@0000:00:18.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:8
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 108
+          bus info: pci@0000:00:18.1
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:9
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 109
+          bus info: pci@0000:00:18.2
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:10
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10a
+          bus info: pci@0000:00:18.3
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=k10temp
+          resources: irq:0
+     *-pci:11
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10b
+          bus info: pci@0000:00:18.4
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:12
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10c
+          bus info: pci@0000:00:18.5
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:13
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10d
+          bus info: pci@0000:00:18.6
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:14
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10e
+          bus info: pci@0000:00:18.7
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:15
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 10f
+          bus info: pci@0000:00:19.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:16
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 110
+          bus info: pci@0000:00:19.1
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:17
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 111
+          bus info: pci@0000:00:19.2
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:18
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 112
+          bus info: pci@0000:00:19.3
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=k10temp
+          resources: irq:0
+     *-pci:19
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 113
+          bus info: pci@0000:00:19.4
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:20
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 114
+          bus info: pci@0000:00:19.5
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:21
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 115
+          bus info: pci@0000:00:19.6
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:22
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 116
+          bus info: pci@0000:00:19.7
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:23
+          description: Host bridge
+          product: Family 17h (Models 00h-0fh) Root Complex
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 117
+          bus info: pci@0000:40:00.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+        *-generic UNCLAIMED
+             description: IOMMU
+             product: Family 17h (Models 00h-0fh) I/O Memory Management Unit
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 0.2
+             bus info: pci@0000:40:00.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: msi ht cap_list
+             configuration: latency=0
+        *-pci:0
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.1
+             bus info: pci@0000:40:01.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 memory:9e700000-9e7fffff
+           *-nvme
+                description: NVMe device
+                product: INTEL SSDPEKKW256G8
+                vendor: Intel Corporation
+                physical id: 0
+                bus info: pci@0000:41:00.0
+                logical name: /dev/nvme0
+                version: 004C
+                serial: BTHH83100R2D256B
+                width: 64 bits
+                clock: 33MHz
+                capabilities: nvme pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0 nqn=nqn.2014.08.org.nvmexpress:80868086BTHH83100R2D256B    INTEL SSDPEKKW256G8 state=live
+                resources: irq:48 memory:9e700000-9e703fff
+              *-namespace:0
+                   description: NVMe disk
+                   physical id: 0
+                   logical name: hwmon0
+              *-namespace:1
+                   description: NVMe disk
+                   physical id: 2
+                   logical name: /dev/ng0n1
+              *-namespace:2
+                   description: NVMe disk
+                   physical id: 1
+                   bus info: nvme@0:1
+                   logical name: /dev/nvme0n1
+                   size: 238GiB (256GB)
+                   capabilities: partitioned partitioned:dos
+                   configuration: logicalsectorsize=512 sectorsize=512 signature=5a816c37 wwid=eui.0000000001000000e4d25c80a2d54f01
+                 *-volume
+                      description: Windows NTFS volume
+                      physical id: 1
+                      bus info: nvme@0:1,1
+                      logical name: /dev/nvme0n1p1
+                      version: 3.1
+                      serial: 46551a2c-616e-074e-af2b-5152c8433309
+                      size: 238GiB
+                      capacity: 238GiB
+                      capabilities: primary ntfs initialized
+                      configuration: clustersize=4096 created=2018-11-27 10:28:22 filesystem=ntfs label=SDD state=clean
+        *-pci:1
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 1.2
+             bus info: pci@0000:40:01.2
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:43 memory:9e600000-9e6fffff
+           *-nvme
+                description: NVMe device
+                product: INTEL SSDPEKKW256G8
+                vendor: Intel Corporation
+                physical id: 0
+                bus info: pci@0000:42:00.0
+                logical name: /dev/nvme1
+                version: 004C
+                serial: BTHH83100R2G256B
+                width: 64 bits
+                clock: 33MHz
+                capabilities: nvme pm msi pciexpress msix nvm_express bus_master cap_list
+                configuration: driver=nvme latency=0 nqn=nqn.2014.08.org.nvmexpress:80868086BTHH83100R2G256B    INTEL SSDPEKKW256G8 state=live
+                resources: irq:50 memory:9e600000-9e603fff
+              *-namespace:0
+                   description: NVMe disk
+                   physical id: 0
+                   logical name: hwmon1
+              *-namespace:1
+                   description: NVMe disk
+                   physical id: 2
+                   logical name: /dev/ng1n1
+              *-namespace:2
+                   description: NVMe disk
+                   physical id: 1
+                   bus info: nvme@1:1
+                   logical name: /dev/nvme1n1
+                   size: 238GiB (256GB)
+                   capabilities: partitioned partitioned:dos
+                   configuration: logicalsectorsize=512 sectorsize=512 signature=c26eb61d wwid=eui.0000000001000000e4d25c83a2d54f01
+                 *-volume
+                      description: Windows NTFS volume
+                      physical id: 1
+                      bus info: nvme@1:1,1
+                      logical name: /dev/nvme1n1p1
+                      version: 3.1
+                      serial: 8a94e026-54a0-0747-9a4a-54d625e78e97
+                      size: 238GiB
+                      capacity: 238GiB
+                      capabilities: primary ntfs initialized
+                      configuration: clustersize=4096 created=2020-12-27 18:07:43 filesystem=ntfs label=New Volume state=clean
+        *-pci:2
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) PCIe GPP Bridge
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 3.1
+             bus info: pci@0000:40:03.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:44 ioport:2000(size=4096) memory:9d000000-9e0fffff ioport:80000000(size=301989888)
+           *-display
+                description: VGA compatible controller
+                product: AD102 [GeForce RTX 4090]
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:43:00.0
+                logical name: /dev/fb0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress vga_controller bus_master cap_list rom fb
+                configuration: depth=32 driver=nvidia latency=0 resolution=2560,1440
+                resources: irq:152 memory:9d000000-9dffffff memory:80000000-8fffffff memory:90000000-91ffffff ioport:2000(size=128) memory:c0000-dffff
+           *-multimedia
+                description: Audio device
+                product: AD102 High Definition Audio Controller
+                vendor: NVIDIA Corporation
+                physical id: 0.1
+                bus info: pci@0000:43:00.1
+                logical name: card1
+                logical name: /dev/snd/controlC1
+                logical name: /dev/snd/hwC1D0
+                logical name: /dev/snd/pcmC1D3p
+                logical name: /dev/snd/pcmC1D7p
+                logical name: /dev/snd/pcmC1D8p
+                logical name: /dev/snd/pcmC1D9p
+                version: a1
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm msi pciexpress bus_master cap_list
+                configuration: driver=snd_hda_intel latency=0
+                resources: irq:155 memory:9e080000-9e083fff
+              *-input:0
+                   product: HDA NVidia HDMI/DP,pcm=9
+                   physical id: 0
+                   logical name: input10
+                   logical name: /dev/input/event10
+              *-input:1
+                   product: HDA NVidia HDMI/DP,pcm=3
+                   physical id: 1
+                   logical name: input7
+                   logical name: /dev/input/event7
+              *-input:2
+                   product: HDA NVidia HDMI/DP,pcm=7
+                   physical id: 2
+                   logical name: input8
+                   logical name: /dev/input/event8
+              *-input:3
+                   product: HDA NVidia HDMI/DP,pcm=8
+                   physical id: 3
+                   logical name: input9
+                   logical name: /dev/input/event9
+        *-pci:3
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 7.1
+             bus info: pci@0000:40:07.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:45 memory:9e200000-9e4fffff
+           *-generic:0 UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Zeppelin/Raven/Raven2 PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:44:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+           *-generic:1
+                description: Encryption controller
+                product: Family 17h (Models 00h-0fh) Platform Security Processor (PSP) 3.0 Device
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.2
+                bus info: pci@0000:44:00.2
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix bus_master cap_list
+                configuration: driver=ccp latency=0
+                resources: irq:146 memory:9e300000-9e3fffff memory:9e400000-9e401fff
+           *-usb
+                description: USB controller
+                product: Zeppelin USB 3.0 xHCI Compliant Host Controller
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.3
+                bus info: pci@0000:44:00.3
+                version: 00
+                width: 64 bits
+                clock: 33MHz
+                capabilities: pm pciexpress msi msix xhci bus_master cap_list
+                configuration: driver=xhci_hcd latency=0
+                resources: irq:134 memory:9e200000-9e2fffff
+              *-usbhost:0
+                   product: xHCI Host Controller
+                   vendor: Linux 6.8.0-58-generic xhci-hcd
+                   physical id: 0
+                   bus info: usb@7
+                   logical name: usb7
+                   version: 6.08
+                   capabilities: usb-2.00
+                   configuration: driver=hub slots=4 speed=480Mbit/s
+                 *-usb
+                      description: Mouse
+                      product: Logitech USB Laser Mouse
+                      vendor: Logitech
+                      physical id: 4
+                      bus info: usb@7:4
+                      logical name: input2
+                      logical name: /dev/input/event2
+                      logical name: /dev/input/mouse0
+                      version: 56.01
+                      capabilities: usb-2.00 usb
+                      configuration: driver=usbhid maxpower=98mA speed=2Mbit/s
+              *-usbhost:1
+                   product: xHCI Host Controller
+                   vendor: Linux 6.8.0-58-generic xhci-hcd
+                   physical id: 1
+                   bus info: usb@8
+                   logical name: usb8
+                   version: 6.08
+                   capabilities: usb-3.00
+                   configuration: driver=hub slots=4 speed=5000Mbit/s
+                 *-usb
+                      description: Mass storage device
+                      product: Elements 107C
+                      vendor: Western Digital
+                      physical id: 1
+                      bus info: usb@8:1
+                      logical name: scsi10
+                      version: 10.65
+                      serial: 574343344534564C3533354A
+                      capabilities: usb-3.00 scsi emulated scsi-host
+                      configuration: driver=usb-storage maxpower=8mA speed=5000Mbit/s
+                    *-disk
+                         description: SCSI Disk
+                         product: Elements 107C
+                         vendor: WD
+                         physical id: 0.0.0
+                         bus info: scsi@10:0.0.0
+                         logical name: /dev/sdb
+                         version: 1065
+                         serial: WCC4E4VL535J
+                         size: 3725GiB (4TB)
+                         capabilities: partitioned partitioned:dos
+                         configuration: ansiversion=6 logicalsectorsize=4096 sectorsize=4096 signature=db4bf07b
+                       *-volume UNCLAIMED
+                            description: HPFS/NTFS partition
+                            physical id: 1
+                            bus info: scsi@10:0.0.0,1
+                            capacity: 465GiB
+                            capabilities: primary
+        *-pci:4
+             description: PCI bridge
+             product: Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B
+             vendor: Advanced Micro Devices, Inc. [AMD]
+             physical id: 8.1
+             bus info: pci@0000:40:08.1
+             version: 00
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci pm pciexpress msi ht normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:47 memory:9e500000-9e5fffff
+           *-generic UNCLAIMED
+                description: Non-Essential Instrumentation
+                product: Zeppelin/Renoir PCIe Dummy Function
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0
+                bus info: pci@0000:45:00.0
+                version: 00
+                width: 32 bits
+                clock: 33MHz
+                capabilities: pm pciexpress cap_list
+                configuration: latency=0
+           *-sata
+                description: SATA controller
+                product: FCH SATA Controller [AHCI mode]
+                vendor: Advanced Micro Devices, Inc. [AMD]
+                physical id: 0.2
+                bus info: pci@0000:45:00.2
+                version: 51
+                width: 32 bits
+                clock: 33MHz
+                capabilities: sata pm pciexpress msi ahci_1.0 bus_master cap_list
+                configuration: driver=ahci latency=0
+                resources: irq:101 memory:9e500000-9e500fff
+     *-pci:24
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 118
+          bus info: pci@0000:40:01.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:25
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 119
+          bus info: pci@0000:40:02.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:26
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11a
+          bus info: pci@0000:40:03.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:27
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11b
+          bus info: pci@0000:40:04.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:28
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11c
+          bus info: pci@0000:40:07.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-pci:29
+          description: Host bridge
+          product: Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge
+          vendor: Advanced Micro Devices, Inc. [AMD]
+          physical id: 11d
+          bus info: pci@0000:40:08.0
+          version: 00
+          width: 32 bits
+          clock: 33MHz
+     *-scsi
+          physical id: 1
+          bus info: usb@1:10
+          logical name: scsi11
+          capabilities: emulated scsi-host
+          configuration: driver=usb-storage
+        *-disk
+             description: SCSI Disk
+             product: ROG RYUO
+             vendor: AsusTek
+             physical id: 0.0.0
+             bus info: scsi@11:0.0.0
+             logical name: /dev/sdc
+             version: 1.00
+             size: 4MiB (4194KB)
+             capabilities: removable
+             configuration: ansiversion=2 logicalsectorsize=4096 sectorsize=4096
+           *-medium
+                physical id: 0
+                logical name: /dev/sdc
+                size: 4MiB (4194KB)
+                capabilities: partitioned partitioned:dos
+              *-volume UNCLAIMED
+                   description: FAT12 partition
+                   physical id: 1
+                   capacity: 480KiB
+                   capabilities: primary
+  *-input:0
+       product: Power Button
+       physical id: 1
+       logical name: input0
+       logical name: /dev/input/event0
+       capabilities: platform
+  *-input:1
+       product: Power Button
+       physical id: 2
+       logical name: input1
+       logical name: /dev/input/event1
+       capabilities: platform
+  *-input:2
+       product: Eee PC WMI hotkeys
+       physical id: 3
+       logical name: input6
+       logical name: /dev/input/event6
+       capabilities: platform
