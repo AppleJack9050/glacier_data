@@ -1,0 +1,15 @@
+=== Summary for ace0 ===
+      cpu_percent  mem_percent  gpu_util_percent  gpu_mem_used_mb
+max      0.751600     0.321181          0.990000         0.400000
+mean     0.102985     0.203415          0.187629         0.191753
+
+=== Summary for openmvg ===
+      cpu_percent  mem_percent  gpu_util_percent  gpu_mem_used_mb
+max      0.999100     0.422249          1.000000         0.020000
+mean     0.137702     0.317991          0.015413         0.010982
+
+=== Summary for colmap ===
+      cpu_percent  mem_percent  gpu_util_percent  gpu_mem_used_mb
+max      0.701000     0.274142          0.960000          0.28000
+mean     0.205696     0.209061          0.173243          0.02273
+
